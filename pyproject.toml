@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sbi-epidemiology"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <jbris@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+bayesflow = "^1.1.6"
+notebook = "^7.3.2"
+jupyterlab = "^4.3.4"
+ipywidgets = "^8.1.5"
+ipython = "^8.31.0"
+jupyter-core = "^5.7.2"
+numpy = "1.24.0"
+tensorflow = ">=2.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
